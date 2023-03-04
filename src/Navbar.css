@@ -1,0 +1,30 @@
+.Navbar{
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Navbar ul{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* box-shadow: 2px 2px 5px black;
+    inset: 5px 5px 10px black; */
+}
+.Navbar ul .active{
+    color: red;
+    text-decoration: none;
+}
+.Navbar ul li {
+    list-style-type: none;
+    /* color: black; */
+}
+.Navbar button{
+    height: 60%;
+    width: 20%;
+    font-size: 1.2rem;
+}
